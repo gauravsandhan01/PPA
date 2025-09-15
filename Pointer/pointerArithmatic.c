@@ -10,12 +10,13 @@ int main()
     p = &(Arr[0]);
     q = &(Arr[4]);
 
-    printf("%d \n" ,Arr[3]);
-    printf("%d \n" , *p);
-    printf("%d \n" , *q);
-    printf("%d \n" , p);
-    printf("%d \n" , q);
-    
+    printf("%d arr 3\n" ,Arr[3]);
+    printf("%d *p\n" , *p);
+    printf("%d *q\n" , *q);
+    printf("%d p\n" , p);
+    printf("%d q-p \n" , q-p);
+
+
     p =p+2;
     printf("%d \n" , *p);
 
